@@ -4,7 +4,7 @@
   "description": "express app",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app/index.js",
+    "dev": "nodemon src/index.js",
     "test": "npm test"
   },
   "repository": {

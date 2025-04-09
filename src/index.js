@@ -3,6 +3,7 @@ import routes from './routes.js';
 
 import handlebars from 'express-handlebars';
 
+const port = process.env.PORT || 3000;
 
 const app = express();
 app.engine('hbs', handlebars.engine({
