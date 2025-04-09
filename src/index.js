@@ -10,10 +10,4 @@ app.use(express.urlencoded({ extended: false }));
 app.use(routes);
 
 
-
-app.get('/', (req, res) => {
-    res.send('It works')
-});
-
-
 app.listen(port, () => console.log(`Server is listening on http://localhost:${port}`))
