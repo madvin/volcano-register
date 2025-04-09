@@ -1,11 +1,11 @@
 import express from 'express';
-import handlebars from 'express-handlebars';
-
-
 
 const app = express();
 
 const port = 3000;
+
+app.use('/static', express.static('public'));
+
 
 
 app.get('/', (req, res) => {
